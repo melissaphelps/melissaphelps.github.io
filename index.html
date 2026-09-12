@@ -16,57 +16,276 @@
     @media(max-width:700px){.page{width:min(100% - 26px,1080px)}header{padding:15px 0}nav{align-items:flex-start;flex-direction:column}.links{gap:14px}.hero{padding:34px 0 26px}.hero-card{padding:30px 24px}.grid{grid-template-columns:1fr}.principle{padding:34px 24px}}
   </style>
 </head>
+
 <body>
   <header>
     <nav class="page" aria-label="Primary navigation">
       <a class="brand" href="#top">Melissa Phelps</a>
-      <div class="links"><a href="#work">Selected Work</a><a href="#approach">Approach</a><a href="#about">About</a><a href="mailto:melissa@melissaphelps.com">Contact</a></div>
+      <div class="links">
+        <a href="#work">Selected Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a href="mailto:melissa@melissaphelps.com">Contact</a>
+      </div>
     </nav>
   </header>
+
   <main id="top">
+
     <div class="hero page">
       <div class="hero-card">
         <p class="eyebrow">AI Automation &amp; Business Systems Analyst</p>
+
         <h1>Translating complexity into clarity.</h1>
-        <p class="title">Business Process Improvement • AI Governance • Workflow Design • Operational Excellence</p>
-        <p class="intro">I design practical systems that turn scattered operational information into clear actions, accountable handoffs, and better decisions. My work combines process analysis, responsible AI, quality controls, and human review.</p>
-        <div class="actions"><a class="button" href="#work">View selected work</a><a class="button secondary" href="Melissa-Phelps-Resume.pdf" target="_blank" rel="noopener">View Résumé</a><a class="button secondary" href="mailto:melissa@melissaphelps.com">Contact Melissa</a></div>
-    </div>
-    <section id="work" class="page">
-      <p class="eyebrow">Selected Work</p>
-      <h2>Production Control &amp; Communication System</h2>
-      <p class="lead">A connected operational system designed to improve project visibility, follow-up, documentation, and decision support without adding unnecessary administrative burden.</p>
-      <article class="case">
-        <h3>One source, focused views</h3>
-        <p>The system converts two controlled inputs—a notes journal and a compliance report—into useful working views for project teams, leadership, and ownership.</p>
-        <div class="grid">
-          <div class="item"><strong>Target Watch (TW)</strong><p>Tracks initial start and completion targets, follow-up dates, schedule movement, and stalled work.</p></div>
-          <div class="item"><strong>Daily Action &amp; Notes Book (DANB)</strong><p>Organizes project notes into a clear daily action and communication workflow.</p></div>
-          <div class="item"><strong>Field Communication System (FCS)</strong><p>Supports concise, standardized field and project-manager follow-up.</p></div>
-          <div class="item"><strong>Leadership &amp; Ownership Views</strong><p>Transforms operational detail into focused visibility while preserving appropriate access controls.</p></div>
+
+        <p class="title">
+          Business Process Improvement • AI Governance • Workflow Design • Operational Excellence
+        </p>
+
+        <p class="intro">
+          I design practical systems that turn scattered operational information into
+          clear actions, accountable handoffs, and better decisions. My work combines
+          process analysis, responsible AI, quality controls, and human review.
+        </p>
+
+        <div class="actions">
+          <a class="button" href="#work">View selected work</a>
+          <a class="button secondary" href="Melissa-Phelps-Resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+          <a class="button secondary" href="mailto:melissa@melissaphelps.com">Contact Melissa</a>
         </div>
-        <div class="governance"><p><strong>Governance built in:</strong> AI may assist with organizing information and drafting communication, but source validation, exceptions, approval, and final decisions remain with people.</p></div>
+      </div>
+    </div>
+
+
+    <section id="work" class="page">
+
+      <p class="eyebrow">Selected Work</p>
+
+      <h2>Production Control &amp; Communication System</h2>
+
+      <p class="lead">
+        A connected operational system designed to turn scattered project information
+        into clear actions, accountable follow-up, and focused decision support without
+        adding unnecessary administrative burden.
+      </p>
+
+      <article class="case">
+
+        <h3>The Problem</h3>
+
+        <p>
+          Critical project information existed across notes, compliance reports,
+          schedules, and individual follow-up practices. The information was available,
+          but identifying what required attention depended on repeated manual checking
+          and individual memory.
+        </p>
+
+        <div class="grid">
+
+          <div class="item">
+            <strong>Why It Mattered</strong>
+            <p>
+              Missed target dates, incomplete notes, shifting priorities, and stalled
+              work could be difficult to see early enough for timely action.
+            </p>
+          </div>
+
+          <div class="item">
+            <strong>Design Goal</strong>
+            <p>
+              Preserve the governing source data while creating focused working views
+              that show the right person what needs attention next.
+            </p>
+          </div>
+
+        </div>
+
+
+        <h3 style="margin-top:32px;">The Solution</h3>
+
+        <p>
+          The system uses controlled operational inputs to create connected views for
+          daily work, target monitoring, communication, and leadership visibility.
+        </p>
+
+        <div class="grid">
+
+          <div class="item">
+            <strong>Target Watch (TW)</strong>
+            <p>
+              Watches initial start and completion targets, schedule movement, overdue
+              activity, follow-up dates, and stalled work.
+            </p>
+          </div>
+
+          <div class="item">
+            <strong>Daily Action &amp; Notes Builder (DANB)</strong>
+            <p>
+              Turns project notes and status information into a focused daily action,
+              documentation, and follow-up workflow.
+            </p>
+          </div>
+
+          <div class="item">
+            <strong>Communication Junction Center (CJC)</strong>
+            <p>
+              Brings communication paths together and routes the right information and
+              follow-up to the right place.
+            </p>
+          </div>
+
+          <div class="item">
+            <strong>Leadership &amp; Ownership Views</strong>
+            <p>
+              Convert detailed operational information into focused visibility while
+              preserving appropriate access and decision boundaries.
+            </p>
+          </div>
+
+        </div>
+
+
+        <h3 style="margin-top:32px;">Why Target Watch Was Reverse-Engineered</h3>
+
+        <p>
+          Target Watch was not rebuilt simply to reproduce an older spreadsheet.
+          The original tool contained important operating rules inside formulas,
+          formatting, and user habits. Reverse-engineering exposed those rules so they
+          could be understood, tested, and redesigned intentionally.
+        </p>
+
+        <div class="grid">
+
+          <div class="item">
+            <strong>Rules Made Visible</strong>
+            <p>
+              The redesign identified how target dates were calculated, when starts
+              became overdue, when attention shifted from start to completion, which
+              project statuses remained active, and when alerts needed to continue
+              beyond a target date.
+            </p>
+          </div>
+
+          <div class="item">
+            <strong>From Spreadsheet Behavior to System Logic</strong>
+            <p>
+              Making those rules explicit reduced dependence on manual checking and
+              fragile spreadsheet behavior while creating logic that can be tested,
+              maintained, and adapted.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="governance">
+          <p>
+            <strong>Human-reviewed by design:</strong>
+            AI may assist with organizing information and drafting communication,
+            but source validation, exceptions, approval, and final decisions remain
+            with people.
+          </p>
+        </div>
+
+
+        <h3 style="margin-top:32px;">Working Model</h3>
+
+        <p>
+          <strong>TW watches. DANB decides. CJC connects.</strong>
+          Together, the tools create a practical control and communication layer
+          around the work rather than another disconnected system.
+        </p>
+
       </article>
+
     </section>
+
+
     <section id="approach" class="page">
+
       <p class="eyebrow">How I Work</p>
+
       <h2>Practical systems people can actually use</h2>
-      <p class="lead">Technology creates value only when the workflow is understandable, maintainable, and trusted by the people using it.</p>
+
+      <p class="lead">
+        Technology creates value only when the workflow is understandable,
+        maintainable, and trusted by the people using it.
+      </p>
+
       <div class="grid">
-        <article class="card"><h3>Learn &amp; Map</h3><p>Understand the real process, its users, its constraints, and the governing source of truth.</p></article>
-        <article class="card"><h3>Design &amp; Build</h3><p>Create a focused workflow with clear ownership, decision points, exceptions, and handoffs.</p></article>
-        <article class="card"><h3>Validate &amp; Package</h3><p>Test outputs, document controls, prepare users, and keep human approval where it belongs.</p></article>
-        <article class="card"><h3>Operational Learning</h3><p>Use results, evidence, and user feedback to strengthen the next iteration.</p></article>
+
+        <article class="card">
+          <h3>Learn &amp; Map</h3>
+          <p>
+            Understand the real process, its users, its constraints, and the governing
+            source of truth.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Design &amp; Build</h3>
+          <p>
+            Create a focused workflow with clear ownership, decision points,
+            exceptions, and handoffs.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Validate &amp; Package</h3>
+          <p>
+            Test outputs, document controls, prepare users, and keep human approval
+            where it belongs.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Operational Learning</h3>
+          <p>
+            Use results, evidence, and user feedback to strengthen the next iteration.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section class="page">
+      <div class="principle">
+        <blockquote>
+          “The process of improvement does not change simply because the industry changes.”
+        </blockquote>
       </div>
     </section>
-    <section class="page"><div class="principle"><blockquote>“The process of improvement does not change simply because the industry changes.”</blockquote></div></section>
+
+
     <section id="about" class="page">
+
       <p class="eyebrow">About</p>
+
       <h2>Operations experience. Systems thinking. Responsible AI.</h2>
-      <p class="lead">I bring more than 20 years of experience across operations, compliance, quality systems, cross-functional leadership, documentation, and process improvement. I apply that foundation to AI-assisted workflows that reduce manual work while protecting accuracy, dignity, and human authority.</p>
-      <a class="button" href="mailto:melissa@melissaphelps.com">Start a conversation</a>
+
+      <p class="lead">
+        I bring more than 20 years of experience across operations, compliance,
+        quality systems, cross-functional leadership, documentation, and process
+        improvement. I apply that foundation to AI-assisted workflows that reduce
+        manual work while protecting accuracy, dignity, and human authority.
+      </p>
+
+      <a class="button" href="mailto:melissa@melissaphelps.com">
+        Start a conversation
+      </a>
+
     </section>
+
   </main>
-  <footer><div class="page">© 2026 Melissa Phelps • Cincinnati, Ohio</div></footer>
+
+
+  <footer>
+    <div class="page">
+      © 2026 Melissa Phelps • Cincinnati, Ohio
+    </div>
+  </footer>
+
 </body>
 </html>
