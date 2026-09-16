@@ -43,7 +43,7 @@ Designed a hub-and-spoke operating model connecting administrative intake, proje
 Operational information entered from multiple sources with different identifiers, fields, and timing. Without a shared control point, downstream tools could create competing versions of the same job.
 
 ### Evidence artifact
-**Create a sanitized CJC sample screenshot.**
+**READY:** `cjc-sample.png`
 
 Recommended visible fields:
 - Internal job number
@@ -87,7 +87,7 @@ CJC acts as the administrative hub and source of truth. It consolidates intake, 
 Daily project follow-up required repeated manual review, note preparation, and individual communication. The same operational logic had to be applied over and over.
 
 ### Evidence artifact
-**Create a sanitized DANB screenshot using the approved baseline layout.**
+**READY:** `danb-sample.png`
 
 Best screenshot:
 - A small group of fictional jobs
@@ -124,7 +124,7 @@ The system assists with organization and drafting, but people retain authority o
 Target dates and schedule changes were difficult to monitor consistently. Existing rules were embedded in operational behavior and note conventions rather than documented as a clean specification.
 
 ### Evidence artifact
-**Create a sanitized Target Watch screenshot.**
+**READY:** `target_watch_portfolio_dashboard.png`
 
 Show fictional rows with examples such as:
 - Healthy target date
@@ -162,7 +162,7 @@ Reverse-engineered the existing scheduling process, preserved its business meani
 Operational requests and updates could be scattered across phone calls, texts, field communication, and office follow-up, making context and accountability difficult to preserve.
 
 ### Evidence artifact
-**Needs retrieval from the work-drive FCS file/form.**
+**READY AS A RECONSTRUCTED EXAMPLE:** `fcs-example.svg`\n\nThis visual is clearly labeled as a reconstructed workflow example rather than a live production screenshot. It shows the Excel QR generator, field/QR intake, office/admin intake, structured review, client-update decision, and recorded output.
 
 Preferred portfolio evidence:
 - Sanitized screenshot of the form or communication view
@@ -182,13 +182,13 @@ FCS creates a two-way communication bridge between office, field, and client-fac
 
 ---
 
-## 6. PM Action & Compliance Layer
+## 6. PM Action & Alert System
 
 ### Problem
 Compliance follow-up sometimes required contacting a project manager about dozens of jobs individually. A large request dump created overload and made important items easier to miss.
 
 ### Evidence artifact
-**Create a sanitized PM Action Queue sample.**
+**READY AS A RECONSTRUCTED EXAMPLE:** `pm-action-alert-example.svg`
 
 Recommended fields:
 - Priority
@@ -220,13 +220,13 @@ Designed a smaller-batch action and alert process that prioritizes the work most
 
 ---
 
-## 7. Leadership & Improvement View
+## 7. Leadership & Improvement View — Concept Only
 
 ### Problem
 Transactional activity alone does not tell leadership whether the system is healthy. Leaders need patterns, bottlenecks, and context rather than every individual note.
 
 ### Evidence artifact
-**Create a sanitized summary view or simple dashboard mockup.**
+**CONCEPT MOCKUP ONLY:** `leadership-improvement-example.svg`\n\nThe earlier Leadership View belonged to the old Note Engine and has not been developed since the Note Builder moved into DANB. This artifact is planning evidence, not proof of a completed implementation.
 
 Suggested measures:
 - Jobs by stage
@@ -283,10 +283,10 @@ This order tells the story from **source of truth → daily action → monitorin
 | Evidence | Status |
 |---|---|
 | System architecture diagram | READY — already in Git |
-| CJC sample | NEEDS SANITIZED SAMPLE |
-| DANB sample | NEEDS SANITIZED SCREENSHOT / SAMPLE |
-| Target Watch sample | NEEDS SANITIZED SCREENSHOT / SAMPLE |
-| PM Action & Compliance queue | NEEDS SAMPLE — can be constructed |
-| FCS | NEEDS RETRIEVAL FROM WORK DRIVE |
-| Leadership / improvement view | NEEDS SAMPLE / MOCKUP |
+| CJC sample | READY — sanitized sample uploaded |
+| DANB sample | READY — sanitized sample uploaded |
+| Target Watch sample | READY — sanitized dashboard uploaded |
+| PM Action & Alert System | READY — reconstructed example uploaded |
+| FCS | READY — reconstructed example uploaded and labeled |
+| Leadership / improvement view | CONCEPT ONLY — not a completed current module |
 
