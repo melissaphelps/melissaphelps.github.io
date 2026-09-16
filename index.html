@@ -25,7 +25,6 @@
     }
 
     *{box-sizing:border-box}
-
     html{scroll-behavior:smooth}
 
     body{
@@ -74,9 +73,7 @@
       font-size:.95rem;
     }
 
-    .hero{
-      padding:84px 0 66px;
-    }
+    .hero{padding:84px 0 66px}
 
     .hero-card{
       padding:clamp(34px,7vw,72px);
@@ -141,9 +138,7 @@
       border:1px solid var(--line);
     }
 
-    section{
-      padding:34px 0 56px;
-    }
+    section{padding:34px 0 56px}
 
     h2{
       margin:0 0 12px;
@@ -157,20 +152,16 @@
       color:var(--muted);
     }
 
-    .case,
-    .card{
+    .case,.card{
       background:var(--paper);
       border:1px solid var(--line);
       border-radius:16px;
       box-shadow:0 8px 30px rgba(23,32,51,.06);
     }
 
-    .case{
-      padding:clamp(26px,5vw,46px);
-    }
+    .case{padding:clamp(26px,5vw,46px)}
 
-    .case h3,
-    .card h3{
+    .case h3,.card h3{
       margin:0 0 8px;
       color:var(--dark);
     }
@@ -182,18 +173,11 @@
       margin-top:26px;
     }
 
-    .card{
-      padding:26px;
-    }
+    .card{padding:26px}
+    .card p{margin:0 0 14px;color:var(--muted)}
+    .card p:last-child{margin-bottom:0}
 
-    .card p{
-      margin:0;
-      color:var(--muted);
-    }
-
-    .project-figure{
-      margin:0 0 28px;
-    }
+    .project-figure{margin:0 0 28px}
 
     .project-figure img{
       width:100%;
@@ -218,20 +202,6 @@
       font-weight:700;
     }
 
-    .quick-list{
-      margin:24px 0 0;
-      padding-left:21px;
-      color:var(--muted);
-    }
-
-    .quick-list li{
-      margin:10px 0;
-    }
-
-    .quick-list strong{
-      color:var(--dark);
-    }
-
     .governance{
       margin-top:28px;
       padding:20px 22px;
@@ -239,9 +209,7 @@
       background:#f8fafc;
     }
 
-    .governance p{
-      margin:0;
-    }
+    .governance p{margin:0}
 
     .principle{
       padding:46px;
@@ -267,38 +235,14 @@
     }
 
     @media(max-width:700px){
-      .page{
-        width:min(100% - 26px,1080px);
-      }
-
-      header{
-        padding:15px 0;
-      }
-
-      nav{
-        align-items:flex-start;
-        flex-direction:column;
-      }
-
-      .links{
-        gap:14px;
-      }
-
-      .hero{
-        padding:34px 0 26px;
-      }
-
-      .hero-card{
-        padding:30px 24px;
-      }
-
-      .grid{
-        grid-template-columns:1fr;
-      }
-
-      .principle{
-        padding:34px 24px;
-      }
+      .page{width:min(100% - 26px,1080px)}
+      header{padding:15px 0}
+      nav{align-items:flex-start;flex-direction:column}
+      .links{gap:14px}
+      .hero{padding:34px 0 26px}
+      .hero-card{padding:30px 24px}
+      .grid{grid-template-columns:1fr}
+      .principle{padding:34px 24px}
     }
   </style>
 </head>
@@ -318,19 +262,14 @@
     </nav>
   </header>
 
-
   <main id="top">
 
     <div class="hero page">
       <div class="hero-card">
 
-        <p class="eyebrow">
-          AI Automation &amp; Business Systems Analyst
-        </p>
+        <p class="eyebrow">AI Automation &amp; Business Systems Analyst</p>
 
-        <h1>
-          Translating complexity into clarity.
-        </h1>
+        <h1>Translating complexity into clarity.</h1>
 
         <p class="title">
           Business Process Improvement • AI Governance • Workflow Design • Operational Excellence
@@ -344,9 +283,7 @@
         </p>
 
         <div class="actions">
-          <a class="button" href="#work">
-            View selected work
-          </a>
+          <a class="button" href="#work">View selected work</a>
 
           <a
             class="button secondary"
@@ -368,26 +305,21 @@
       </div>
     </div>
 
-
     <section id="work" class="page">
 
-      <p class="eyebrow">
-        Selected Work
-      </p>
+      <p class="eyebrow">Selected Work</p>
 
-      <h2>
-        Production Control &amp; Communication System
-      </h2>
+      <h2>Production Control &amp; Communication System</h2>
 
       <p class="lead">
-        A connected operational system that turns scattered project information
-        into clear actions, accountable follow-up, and focused decision support.
+        A connected hub-and-spoke operating system that turns scattered project
+        information into clear actions, accountable follow-up, focused decision
+        support, and a usable paper trail for continuous improvement.
       </p>
 
       <article class="case">
 
         <figure class="project-figure">
-
           <img
             src="production-control-sys-diagram.png"
             alt="Production Control and Communication System diagram showing operational inputs entering the CJC administrative foundation, flowing upward through project managers and compliance to leadership visibility, with support and coordination moving back down."
@@ -398,56 +330,119 @@
             supports project action and compliance work, and creates
             decision-ready visibility for leadership.
           </figcaption>
-
         </figure>
-
 
         <p>
           The system was designed to reduce repeated manual checking,
           strengthen communication, improve follow-up, and make operational
-          information easier to act on across the organization.
+          information easier to act on across the organization. Rather than
+          forcing every function into one oversized workbook, the architecture
+          separates distinct responsibilities into connected modules while
+          preserving a common source of truth.
         </p>
-
 
         <p class="system-line">
-          TW watches • DANB decides • CJC connects • FCS bridges • TEAS escalates
+          One system • clear modules • shared rules • human-reviewed decisions
         </p>
 
+        <div class="grid">
 
-        <ul class="quick-list">
+          <article class="card">
+            <h3>Central Job Control (CJC)</h3>
+            <p>
+              <strong>Role in the whole:</strong> the hub and administrative
+              source of truth. CJC brings together intake data, job matching,
+              status logic, source history, approved users, contact information,
+              and manual overrides before information moves into downstream
+              workflows.
+            </p>
+            <p>
+              <strong>Why it exists separately:</strong> the core data and
+              business rules need one stable home. Keeping that foundation
+              separate prevents reporting, alerts, and communication tools from
+              becoming competing versions of the same job record.
+            </p>
+          </article>
 
-          <li>
-            <strong>Target Watch (TW)</strong>
-            monitors target dates, schedule movement, overdue activity,
-            follow-up needs, and stalled work.
-          </li>
+          <article class="card">
+            <h3>Daily Action &amp; Notes Builder (DANB)</h3>
+            <p>
+              <strong>Role in the whole:</strong> turns project information into
+              the day's actionable work—standardized notes, follow-up requests,
+              documentation, and next-step decisions.
+            </p>
+            <p>
+              <strong>Why it exists separately:</strong> action logic changes
+              more often than source data. DANB can improve the daily workflow
+              without destabilizing the underlying job record or removing human
+              review points.
+            </p>
+          </article>
 
-          <li>
-            <strong>Daily Action &amp; Notes Builder (DANB)</strong>
-            converts project information into a focused daily action,
-            documentation, and follow-up workflow.
-          </li>
+          <article class="card">
+            <h3>Target Watch (TW)</h3>
+            <p>
+              <strong>Role in the whole:</strong> monitors target dates,
+              schedule movement, overdue activity, holds, stalled work, and
+              missing target-date reasoning—including structured note patterns
+              used to support downstream checks.
+            </p>
+            <p>
+              <strong>Why it exists separately:</strong> schedule surveillance
+              is a specialized control function. Reverse-engineering the
+              existing process made it possible to preserve business rules while
+              adding clearer exception and QA visibility.
+            </p>
+          </article>
 
-          <li>
-            <strong>Communication Junction Center (CJC)</strong>
-            serves as the administrative intake and central connection point
-            for operational information and communication.
-          </li>
+          <article class="card">
+            <h3>Field Communication System (FCS)</h3>
+            <p>
+              <strong>Role in the whole:</strong> provides the communication
+              bridge between office, field, and client-facing work so requests,
+              responses, and operational context are less likely to disappear
+              into scattered texts or calls.
+            </p>
+            <p>
+              <strong>Why it exists separately:</strong> communication has a
+              different lifecycle from production data. Separating it keeps the
+              operational record clean while still connecting communication
+              back to the job.
+            </p>
+          </article>
 
-          <li>
-            <strong>Field Communication System (FCS)</strong>
-            acts as a two-way bridge connecting the office with both
-            the field team and clients.
-          </li>
+          <article class="card">
+            <h3>PM Action &amp; Compliance Layer</h3>
+            <p>
+              <strong>Role in the whole:</strong> converts compliance and project
+              needs into smaller prioritized requests for project managers,
+              focusing first on WIP, then Pre-Production, then Pending Sales,
+              while bundling related compliance updates into the same touchpoint.
+            </p>
+            <p>
+              <strong>Why it exists separately:</strong> the control must protect
+              both compliance needs and human workload. Smaller batches reduce
+              overload, create an auditable paper trail, and provide evidence
+              for later PDCA-based improvement.
+            </p>
+          </article>
 
-          <li>
-            <strong>Team Escalation &amp; Alert System (TEAS)</strong>
-            identifies unresolved issues and directs needed attention
-            to the appropriate team members.
-          </li>
+          <article class="card">
+            <h3>Leadership &amp; Improvement Views</h3>
+            <p>
+              <strong>Role in the whole:</strong> turns operational activity into
+              context—showing where work is moving, where it is stalled, and
+              where patterns may require management attention.
+            </p>
+            <p>
+              <strong>Why it exists separately:</strong> leadership needs
+              decision-ready visibility rather than every transaction. This
+              layer summarizes the work without replacing the source history
+              used by the operational team.
+            </p>
+          </article>
 
-        </ul>
-
+        </div>
 
         <div class="governance">
           <p>
@@ -459,69 +454,47 @@
         </div>
 
       </article>
-
     </section>
-
 
     <section id="approach" class="page">
 
-      <p class="eyebrow">
-        How I Work
-      </p>
+      <p class="eyebrow">How I Work</p>
 
-      <h2>
-        Practical systems people can actually use
-      </h2>
+      <h2>Practical systems people can actually use</h2>
 
       <p class="lead">
         Technology creates value only when the workflow is understandable,
         maintainable, and trusted by the people using it.
       </p>
 
-
       <div class="grid">
 
         <article class="card">
-          <h3>
-            Learn &amp; Map
-          </h3>
-
+          <h3>Learn &amp; Map</h3>
           <p>
             Understand the real process, its users, its constraints,
             and the governing source of truth.
           </p>
         </article>
 
-
         <article class="card">
-          <h3>
-            Design &amp; Build
-          </h3>
-
+          <h3>Design &amp; Build</h3>
           <p>
             Create a focused workflow with clear ownership,
             decision points, exceptions, and handoffs.
           </p>
         </article>
 
-
         <article class="card">
-          <h3>
-            Validate &amp; Package
-          </h3>
-
+          <h3>Validate &amp; Package</h3>
           <p>
             Test outputs, document controls, prepare users,
             and keep human approval where it belongs.
           </p>
         </article>
 
-
         <article class="card">
-          <h3>
-            Operational Learning
-          </h3>
-
+          <h3>Operational Learning</h3>
           <p>
             Use results, evidence, and user feedback
             to strengthen the next iteration.
@@ -529,32 +502,21 @@
         </article>
 
       </div>
-
     </section>
 
-
     <section class="page">
-
       <div class="principle">
-
         <blockquote>
           “The process of improvement does not change simply because the industry changes.”
         </blockquote>
-
       </div>
-
     </section>
-
 
     <section id="about" class="page">
 
-      <p class="eyebrow">
-        About
-      </p>
+      <p class="eyebrow">About</p>
 
-      <h2>
-        Operations experience. Systems thinking. Responsible AI.
-      </h2>
+      <h2>Operations experience. Systems thinking. Responsible AI.</h2>
 
       <p class="lead">
         I bring more than 20 years of experience across operations,
@@ -574,7 +536,6 @@
     </section>
 
   </main>
-
 
   <footer>
     <div class="page">
