@@ -170,7 +170,7 @@ Preferred portfolio evidence:
 - No client, employee-private, or claim-identifying information
 
 ### Solution
-FCS creates a two-way communication bridge between office, field, and client-facing work while connecting communication back to the operational job context.
+FCS creates a two-way communication bridge between office, field, and client-facing work while connecting communication back to the operational job context. Its recorded updates and review trail also create an existing leadership-visibility vein.
 
 ### Impact
 - Reduces reliance on one-off texts and calls.
@@ -226,7 +226,7 @@ Designed a smaller-batch action and alert process that prioritizes the work most
 Transactional activity alone does not tell leadership whether the system is healthy. Leaders need patterns, bottlenecks, and context rather than every individual note.
 
 ### Evidence artifact
-**CONCEPT MOCKUP ONLY:** `leadership-improvement-example.svg`\n\nThe earlier Leadership View belonged to the old Note Engine and has not been developed since the Note Builder moved into DANB. This artifact is planning evidence, not proof of a completed implementation.
+**CONCEPT MOCKUP ONLY:** `leadership-improvement-example.svg`\n\nThe earlier standalone Leadership View belonged to the old Note Engine and has not been developed since the Note Builder moved into DANB. Leadership visibility currently exists through the FCS communication trail and controlled source records. This artifact is planning evidence, not proof of a completed standalone dashboard.
 
 Suggested measures:
 - Jobs by stage
