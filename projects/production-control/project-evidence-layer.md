@@ -67,6 +67,7 @@ CJC acts as the administrative hub and source of truth. It consolidates intake, 
 
 ### Control examples
 - XA records without internal job IDs are matched using available business identifiers.
+- A deliberately confirmed external assignment identifier can outrank an unverified imported match, while imported values remain available as fallback evidence.
 - Status can advance when approved operational evidence is present.
 - Manual overrides are preserved rather than silently overwritten.
 - Downstream tools inherit controlled data instead of creating their own job truth.
@@ -107,6 +108,8 @@ DANB converts project information into a focused daily workflow: what needs atte
 
 ### Design principle
 The system assists with organization and drafting, but people retain authority over source validation, exceptions, approvals, and final decisions.
+
+The current design direction is an **operational memory layer**: evidence identifies who has the next action, how long the handoff has been open, and whether a later note or update resolves it. For example, a post-scope estimating note can satisfy the handoff without requiring a second verbal notification, while an unanswered external request can age into a management-attention condition.
 
 ### Impact
 - Reduced repetitive administrative work by as much as **3 hours per day** in the broader workflow.
@@ -239,7 +242,7 @@ Suggested measures:
 - follow-up completion
 
 ### Solution
-Translate operational activity into decision-ready views without replacing or hiding the source history beneath the summary.
+Translate operational activity into decision-ready views without replacing or hiding the source history beneath the summary. The planned governance layer is intentionally exception-based: routine internal follow-up stays operational, while an external request that remains unanswered for four calendar days becomes a management-attention item and clears when qualifying response evidence appears.
 
 ### Impact
 - Makes recurring bottlenecks visible.
