@@ -1,20 +1,24 @@
-# Melissa Phelps — AI Automation & Business Systems
+# Melissa Phelps | Finding better ways to work
 
-Portfolio for AI solution design, business process improvement, compliance operations, and operational excellence.
+I like figuring out why things don't work—especially the problems people have gotten used to working around.
 
-## Featured case study
+My background is in operations, compliance, quality, and process improvement. I build practical tools that make it easier to find information, see what needs attention, and keep people in the loop. AI is one tool I use, not the whole story.
+
+## A project worth sharing
 
 [Production Control & Communication System](projects/production-control/)
 
-A connected, human-reviewed operating system that turns scattered project information into clear actions, accountable follow-up, communication traceability, and management learning.
+One project, several connected pieces. Different programs had different information, and someone still had to catch the gaps. I started building tools to help:
 
-The case study documents these connected areas:
+- **Central Job Control:** one home base for job information
+- **DANB:** a clearer list of what needs doing today, including notes and follow-up
+- **Target Watch:** an easier way to spot missing or overdue dates
+- **Field Communication:** keeping office and field updates from getting lost
+- **PM Action & Alert:** smaller, clearer requests instead of overwhelming lists
+- **Leadership view:** an idea I'm still developing, not a finished dashboard
 
-- Central Job Control (CJC): administrative hub and source of truth
-- Daily Action & Notes Builder (DANB): daily action and documentation workflow
-- Target Watch (TW): target-date monitoring and QA exceptions
-- Field Communication System (FCS): field, office, and client-update traceability
-- PM Action & Alert System: workload-aware prioritized requests
-- Leadership & Improvement View: planned concept; current visibility is supported through FCS and controlled source records
+See the [case study and examples](projects/production-control/) or visit [my portfolio](https://melissaphelps.com).
 
-All examples are sanitized or reconstructed for portfolio use. They are not production records.
+The examples are fictionalized or sanitized to protect real people and projects. I identify concepts separately from work already built.
+
+**My starting point:** Quality isn't one department's job. It's what happens when all the pieces work together.
