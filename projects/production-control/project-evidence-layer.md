@@ -1,6 +1,6 @@
-# Production Control & Communication System — Project Evidence Layer
+# Production Control & Communication System — The Examples Behind the Story
 
-This section is designed to sit beneath the system architecture explanation on Melissa Phelps's portfolio.
+These examples show what I built, what I was trying to fix, and what still needs work. The goal is to make the evidence easy to follow without hiding the details.
 
 ## Evidence strategy
 
